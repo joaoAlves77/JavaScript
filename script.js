@@ -29,3 +29,9 @@ console.log(hello);
     let segundo = "santana";
     let completo = primeiro + " " + segundo;
     console.log(completo);
+
+// Template string
+    let nome3 = 'joão';
+    let sobreNome3 = 'santana alves';
+    let completo3 = `${nome3} ${sobreNome3}`
+    console.log(completo3);
