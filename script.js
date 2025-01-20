@@ -35,3 +35,11 @@ console.log(hello);
     let sobreNome3 = 'santana alves';
     let completo3 = `${nome3} ${sobreNome3}`
     console.log(completo3);
+
+// Condicional if/ else
+    let idade4 = 90;
+    if(idade4 >= 18) {
+        console.log('Maior de idade');
+    } else {
+        console.log('Menor de idade');
+    }
