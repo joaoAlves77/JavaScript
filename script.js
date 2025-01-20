@@ -1,6 +1,6 @@
 //Hello world;
 let hello = "Hello world";
-console.log(nome);
+console.log(hello);
 
 
 // Tipos de declaração de variaveis
@@ -19,3 +19,13 @@ console.log(nome);
     let NomeIdade = { nome:"joao", idade: 20}
     console.log(typeof nome2) // typeof para saber qual é o tipo da variavel
 
+// Operações em variaveis
+    let x = 1;
+    let y = 0;
+    let resultado = x + y;
+    console.log(resultado);
+
+    let primeiro = "joao";
+    let segundo = "santana";
+    let completo = primeiro + " " + segundo;
+    console.log(completo);
