@@ -43,3 +43,10 @@ console.log(hello);
     } else {
         console.log('Menor de idade');
     }
+
+// Mult-Condicionais && or ||
+    let idade5 = 14;
+    if(idade5 >= 18 && idade5 < 60) {
+        console.log("Voce é um adulto.")
+    }
+
