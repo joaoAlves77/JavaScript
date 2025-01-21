@@ -50,3 +50,12 @@ console.log(hello);
         console.log("Voce é um adulto.")
     }
 
+// Condicional dupla
+    let idade6 = 14;
+    if(idade6 = 18 ) {
+        console.log("Voce é um adole...");
+    } else if(idade6 >= 18 && idade6 < 60) {
+        console.log("Voce é um adulto");
+    } else {
+        console.log("Voce não é nada");
+    }
