@@ -66,3 +66,20 @@ let shipping = (isMember ? 2 : 10);
 
 console.log(isMember ? "deu certo" : "error");
 console.log("Frente: " + shipping)
+
+// Switch
+let profissao = "";
+switch (profissao) {
+    case 'pm':
+        console.log('BIXO BOM');
+        break;
+    case 'bomb': 
+        console.log('fogo');
+        break;
+    case 'samu': 
+        console.log('vida');
+        break;
+    default: 
+        console.log('Nenhuma');
+        break;
+} 
