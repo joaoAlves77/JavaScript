@@ -60,3 +60,9 @@ console.log(hello);
         console.log("Voce não é nada");
     }
 
+// Condicional Ternário
+let isMember = false;
+let shipping = (isMember ? 2 : 10);
+
+console.log(isMember ? "deu certo" : "error");
+console.log("Frente: " + shipping)
