@@ -2,7 +2,6 @@
 let hello = "Hello world";
 console.log(hello);
 
-
 // Tipos de declaração de variaveis
 // let e const. 'var' também mas não é mais utilizada.
 // Variaveis
@@ -139,12 +138,10 @@ function addSquares(a, b) {
 // Array
 // Contagem dos arrays sempre começa do zero
 let colors = ['blue', 'red', 'green'];
-
 console.log(colors[1]);
 
 //Operações basicas do array
 let ingredientes = ['ovo', 'massa', 'leite', 'farinha'];
-
 ingredientes.push('agua');
 ingredientes.pop();
 ingredientes.shift();
@@ -175,7 +172,6 @@ let personagem2 = {
         {modelo: 'Ferrari', cor: 'vermelho'}
     ]
 }
-
 console.log(personagem2.carros[0].modelo);
 
 // Função dentro de objetos
@@ -186,7 +182,6 @@ let pessoa = {
         return `${nome} ${sobreNome}`; 
     }
 }
-
 console.log(pessoa.nomeCompleto());
 
 //O loop for
@@ -218,7 +213,6 @@ console.log(jogos);
 
 // Interação com array
 let fruits2 = ['Banana', 'Pera', 'Maça', 'laranha'];
-
 let bigFruits = fruits2.filter((item) => {
     return item.length > 4;
 })
