@@ -97,10 +97,27 @@ function nomeCompleto(nome, sobrenome) {
 }
 nomeCompleto("joao", "santana")
 
-//Return
+// Return
 function teste (x) {
     return x * x
 }
 
 let resultado2 = teste(10);
 console.log(resultado2)
+
+// Função com retorno condicional
+function teste2 (idade10) {
+    if (idade >= 18) {
+        return true;
+    } else {
+        return false;
+    }
+}
+let idade10 = 17;
+let verificar = teste2(idade10);
+
+if (verificar){
+    console.log("Maior de idade")
+} else {
+    console.log("Menor de idade");
+}
