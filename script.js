@@ -82,4 +82,11 @@ switch (profissao) {
     default: 
         console.log('Nenhuma');
         break;
-} 
+}
+
+//Declarando uma função
+function gravidade() {
+    console.log('a gravidade do planeta e:');
+    console.log(9.9);
+}
+gravidade();
