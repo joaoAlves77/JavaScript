@@ -89,4 +89,6 @@ function gravidade() {
     console.log('a gravidade do planeta e:');
     console.log(9.9);
 }
-gravidade();
+gravidade(); // chamando a função
+
+//Passando parâmetros em funções
