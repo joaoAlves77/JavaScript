@@ -92,3 +92,7 @@ function gravidade() {
 gravidade(); // chamando a função
 
 //Passando parâmetros em funções
+function nomeCompleto(nome, sobrenome) {
+    console.log (`${nome} ${sobrenome}`);
+}
+nomeCompleto("joao", "santana")
