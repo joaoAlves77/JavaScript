@@ -96,3 +96,11 @@ function nomeCompleto(nome, sobrenome) {
     console.log (`${nome} ${sobrenome}`);
 }
 nomeCompleto("joao", "santana")
+
+//Return
+function teste (x) {
+    return x * x
+}
+
+let resultado2 = teste(10);
+console.log(resultado2)
