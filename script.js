@@ -126,3 +126,14 @@ if (verificar){
 const somar = (x, y) => x + y;
 
 console.log(somar(10, 5));
+
+//exemplo de função dentro de função:
+function addSquares(a, b) {
+    const square = (x) => x * x;
+    
+    let sqrA = square(a);
+    let sqrB = square(b);
+    return sqrA + sqrB;
+}
+
+console.log(square(3));
