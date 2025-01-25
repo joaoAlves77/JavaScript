@@ -121,3 +121,5 @@ if (verificar){
 } else {
     console.log("Menor de idade");
 }
+
+// Arrow Function
