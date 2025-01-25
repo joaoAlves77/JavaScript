@@ -15,3 +15,36 @@ if (preco <= 40.3) {
 } else {
     console.log("caro")
 }
+
+function calcPct(n1, n2) {
+    return (n2 / n1) * 100;
+}
+let n1 = 50;
+let n2 = 20;
+let pct = calcPct(n1, n2);
+console.log(`${pct}% de ${n1} é ${n2}`)
+
+
+function calcuLarImovel (metragem, quartos) {
+    let m2 = 3.000;
+    let preco2 = 0;
+
+    switch (quartos){
+        case 1:
+        default:
+            preco2 = metragem * m2;
+            break
+        case 2:
+            preco2 = metragem * (m2 * 1.2);
+            break
+        case 3:
+            preco2 = metragem * (m2 * 1.5);
+            break
+    }
+    return preco2;
+}
+
+let metragem = 123;
+let quartos = 2;
+let preco2 = calcuLarImovel(metragem, quartos);
+console.log(`a casa custa R$ ${preco2}`);
