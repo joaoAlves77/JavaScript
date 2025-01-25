@@ -48,3 +48,20 @@ let metragem = 123;
 let quartos = 2;
 let preco2 = calcuLarImovel(metragem, quartos);
 console.log(`a casa custa R$ ${preco2}`);
+
+function userPassoword(user, password) {
+    if (user === 'João' && password === 123) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+let user = 'pedro';
+let password = 321;
+let validação = userPassoword(user, password);
+if (validação) {
+    console.log("Acesso concedido");
+} else {
+    console.log('Acesso negado');
+}
