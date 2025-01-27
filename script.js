@@ -136,11 +136,18 @@ function addSquares(a, b) {
     return sqrA + sqrB;
 }
 
-console.log(square(3));
-
 // Array
 // Contagem dos arrays sempre começa do zero
 
 let colors = ['blue', 'red', 'green'];
 
 console.log(colors[1]);
+
+//Operações basicas do array
+
+let ingredientes = ['ovo', 'massa', 'leite', 'farinha'];
+
+ingredientes.push('agua');
+ingredientes.pop();
+ingredientes.shift();
+console.log(`total de ingredientes: ${ingredientes.length}`);
