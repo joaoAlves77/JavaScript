@@ -137,3 +137,10 @@ function addSquares(a, b) {
 }
 
 console.log(square(3));
+
+// Array
+// Contagem dos arrays sempre começa do zero
+
+let colors = ['blue', 'red', 'green'];
+
+console.log(colors[1]);
