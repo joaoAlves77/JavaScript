@@ -168,3 +168,15 @@ let personagem = {
 console.log(`${personagem.nome} tem ${personagem.idade} mora em ${personagem.pais}`);
 console.log(`Cor do olho: ${personagem.olhos[0]}`);
 console.log(`força: ${personagem.poderes.forca} magia: ${personagem.poderes.magia} e stamina: ${personagem.poderes.stamina}`);
+
+// Acessando e alterando objetos
+let personagem2 = {
+    nome: 'joao',
+    idade: '20',
+    carros: [
+        {modelo: 'Fiat', cor: 'preto'},
+        {modelo: 'Ferrari', cor: 'vermelho'}
+    ]
+}
+
+console.log(personagem2.carros[0].modelo);
