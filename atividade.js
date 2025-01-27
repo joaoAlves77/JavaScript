@@ -65,3 +65,20 @@ if (validação) {
 } else {
     console.log('Acesso negado');
 }
+
+// 1. No array abaixo, qual o numero que pega a ferrari?
+let carros = ['BMW', 'Ferrari', 'Mercedes'];
+let x2 = 1;
+console.log('1. ' + carros[x]);
+
+// 2. Troque a Ferrari por audi
+carros[1] = 'Audi';
+console.log(`2. lista com Audi: ${carros}` );
+console.log(carros);
+
+//3 adicione volvo na lista
+carros.push('Volvo');
+console.log(carros);
+
+//4. exiba quantos itens tem no array
+console.log(`Total de items: ${carros.length}`);
