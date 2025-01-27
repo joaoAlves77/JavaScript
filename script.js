@@ -180,3 +180,14 @@ let personagem2 = {
 }
 
 console.log(personagem2.carros[0].modelo);
+
+// Função dentro de objetos
+let pessoa = {
+    nome: 'Joao',
+    sobreNome: 'Santana',
+    nomeCompleto: function () {
+        return `${nome} ${sobreNome}`; 
+    }
+}
+
+console.log(pessoa.nomeCompleto());
