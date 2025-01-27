@@ -151,3 +151,20 @@ ingredientes.push('agua');
 ingredientes.pop();
 ingredientes.shift();
 console.log(`total de ingredientes: ${ingredientes.length}`);
+
+// objetos
+let personagem = {
+    nome: 'João',
+    idade: 19,
+    pais: 'Brasil',
+    olhos: ['Preto', 'azul'],
+    poderes: {
+        forca: 10,
+        magia: 5,
+        stamina: 10
+    }
+}
+
+console.log(`${personagem.nome} tem ${personagem.idade} mora em ${personagem.pais}`);
+console.log(`Cor do olho: ${personagem.olhos[0]}`);
+console.log(`força: ${personagem.poderes.forca} magia: ${personagem.poderes.magia} e stamina: ${personagem.poderes.stamina}`);
