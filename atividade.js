@@ -82,3 +82,17 @@ console.log(carros);
 
 //4. exiba quantos itens tem no array
 console.log(`Total de items: ${carros.length}`);
+
+
+//1. faça um loop que mostre todas as frutas
+let fruits = ['Maça', 'Uva', 'Banan'];
+for(let i in fruits) {
+    console.log(fruits[i]);
+}
+
+//2. conte de 1 ate 100 while
+let number = 1;
+while(number <= 100) {
+    console.log(`Numero: ${number}`);
+    number++;
+}
