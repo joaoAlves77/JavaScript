@@ -218,3 +218,12 @@ let jogos = ['gta', 'fifa', 'good'];
 jogos.sort();
 jogos.reverse();
 console.log(jogos);
+
+// Interação com array
+let fruits2 = ['Banana', 'Pera', 'Maça', 'laranha'];
+
+let bigFruits = fruits2.filter((item) => {
+    return item.length > 4;
+})
+
+console.log(bigFruits);
