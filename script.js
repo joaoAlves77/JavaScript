@@ -196,3 +196,12 @@ console.log(pessoa.nomeCompleto());
 for(let n = 1; n <= 5; n++) {
     console.log('Frase qualquer' + n);
 }
+
+// Dando loop em arrays
+let cores = [
+    { nome: 'olho', cor: 'azul'}
+];
+
+for (let i in cores) {
+    console.log(cores[i].nome);
+}
