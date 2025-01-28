@@ -205,3 +205,11 @@ let cores = [
 for (let i in cores) {
     console.log(cores[i].nome);
 }
+
+// Loop while 
+
+let numero = 0;
+while (numero <= 10) {
+    console.log(`Numero: ${numero}`);
+    numero++;
+}
