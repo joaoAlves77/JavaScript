@@ -207,9 +207,14 @@ for (let i in cores) {
 }
 
 // Loop while 
-
 let numero = 0;
 while (numero <= 10) {
     console.log(`Numero: ${numero}`);
     numero++;
 }
+
+// Ordenação de array
+let jogos = ['gta', 'fifa', 'good'];
+jogos.sort();
+jogos.reverse();
+console.log(jogos);
