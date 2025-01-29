@@ -218,3 +218,12 @@ let bigFruits = fruits2.filter((item) => {
 })
 
 console.log(bigFruits);
+
+// Eventos de clique
+// pode ser assim: <button class="botao" onclick="clicou()">teste</button>
+function clicou() {
+    console.log('Clicou no botão')
+}
+// or
+let botao = document.querySelector(".botao");
+botao.addEventListener("click", clicou);
