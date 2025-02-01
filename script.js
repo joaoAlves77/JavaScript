@@ -138,13 +138,11 @@ function addSquares(a, b) {
 
 // Array
 // Contagem dos arrays sempre começa do zero
-
 let colors = ['blue', 'red', 'green'];
 
 console.log(colors[1]);
 
 //Operações basicas do array
-
 let ingredientes = ['ovo', 'massa', 'leite', 'farinha'];
 
 ingredientes.push('agua');
@@ -164,7 +162,6 @@ let personagem = {
         stamina: 10
     }
 }
-
 console.log(`${personagem.nome} tem ${personagem.idade} mora em ${personagem.pais}`);
 console.log(`Cor do olho: ${personagem.olhos[0]}`);
 console.log(`força: ${personagem.poderes.forca} magia: ${personagem.poderes.magia} e stamina: ${personagem.poderes.stamina}`);
