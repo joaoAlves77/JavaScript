@@ -240,3 +240,13 @@ function clicou() {
 
 document.querySelector(".botao").addEventListener("click", clicou);
 
+//.children = são os elementos que tem dentro desse elemento por exemplo dentro da 'div'.
+// Usado tambem pra consultar e alterar o valor
+function clicou() {
+    const teste = document.querySelector('#teste');
+    const ul = teste.querySelector('ul');
+
+    console.log(ul.innerHTML);  
+    ul.innerHTML = "<li>item alterado</li>"; // = alterar
+    ul.innerHTML = ul.innerHTML + "<li>item alterado</li>"; // = adicionar
+}
