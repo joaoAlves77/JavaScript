@@ -96,3 +96,19 @@ while(number <= 100) {
     console.log(`Numero: ${number}`);
     number++;
 }
+
+// lista de items
+const input = document.querySelector('input');
+const lista2 = document.querySelector('ul');
+
+function handleKeyUp (e){
+if (e.key === 'Enter') {
+    const newLi = document.createElement('li');
+    newLi.innerHTML = input.value;
+    lista.appendChild(newLi);
+
+    input.value = '';
+}
+}
+
+input.addEventListener('keyup', handleKeyUp);

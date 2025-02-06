@@ -219,6 +219,7 @@ let bigFruits = fruits2.filter((item) => {
 
 console.log(bigFruits);
 
+// Eventos e manipulação de DOM
 // Eventos de clique
 // pode ser assim: <button class="botao" onclick="clicou()">teste</button>
 function clicou() {
