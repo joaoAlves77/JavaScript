@@ -250,3 +250,10 @@ function clicou() {
     ul.innerHTML = "<li>item alterado</li>"; // = alterar
     ul.innerHTML = ul.innerHTML + "<li>item alterado</li>"; // = adicionar
 }
+
+// Manipulando elementos
+let newLi = document.createElement("li");
+newLi.innerText = "Item adicionado";
+
+ul.appendChild(newLi); // Adiciona no final
+ul.prepend(newLi); // Adiciona no começo
