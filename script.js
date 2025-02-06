@@ -225,6 +225,18 @@ console.log(bigFruits);
 function clicou() {
     console.log('Clicou no botão')
 }
-// or
 let botao = document.querySelector(".botao");
 botao.addEventListener("click", clicou);
+
+//1. Alternativa um html = onclick="clicou()" ou fazer uma arrow function
+javaScript= function clicou() {
+    console.log('Clicou no botão');
+}
+
+//2. Alternativa dois, somente no javaScript
+function clicou() {
+    console.log('Clicou no botão');
+}
+
+document.querySelector(".botao").addEventListener("click", clicou);
+
