@@ -7,7 +7,6 @@ class Personagem {
         this.poder = poder;
     }
 }
-
 console.log(new Personagem('joao', 20, 'força')); // instância
 
 // classes: action
@@ -39,3 +38,5 @@ let p3 = new Person('José');
 
 p1.takeAstep();
 console.log(`${p1.name} deu ${p1.steps} passos`);
+
+//
