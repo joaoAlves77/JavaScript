@@ -59,3 +59,6 @@ class Student extends Person {
 let p6 = new Student('Maria', 'Engenharia');
 p6.sayHello();
 console.log(`${p6.name} deu ${p6.steps} passos`);
+
+// Classes: Variável/Método estático
+
