@@ -39,4 +39,8 @@ let p3 = new Person('José');
 p1.takeAstep();
 console.log(`${p1.name} deu ${p1.steps} passos`);
 
-//
+// Classes: Getter e Setter, forma de usar get e set
+
+    // get fullName() {
+    //     return `${this.firstName} ${this.LastName}`;
+    // }
