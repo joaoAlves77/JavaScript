@@ -44,3 +44,18 @@ console.log(`${p1.name} deu ${p1.steps} passos`);
     // get fullName() {
     //     return `${this.firstName} ${this.LastName}`;
     // }
+
+// Classes: Herança
+class Student extends Person {
+    constructor(name, course) {
+        super(name);
+        this.course = course;
+    }
+
+    sayHello() {
+        super.takeAstep();
+    }
+}
+let p6 = new Student('Maria', 'Engenharia');
+p6.sayHello();
+console.log(`${p6.name} deu ${p6.steps} passos`);
