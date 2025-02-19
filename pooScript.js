@@ -61,4 +61,10 @@ p6.sayHello();
 console.log(`${p6.name} deu ${p6.steps} passos`);
 
 // Classes: Variável/Método estático
+class Usuario {
+    static info() {
+        console.log('Apenas um teste');
+    }
+}
 
+Usuario.info();
