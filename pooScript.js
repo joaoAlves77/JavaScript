@@ -68,3 +68,13 @@ class Usuario {
 }
 
 Usuario.info();
+
+// Classes: Factory
+function createPerson(name, age) {
+    let p = new Person(name);
+    p.age = age;
+    return p;
+}
+
+let p7 = createPerson('João', 20);
+console.log(`${p7.name} tem ${p7.age} anos`);
