@@ -289,3 +289,9 @@ function removerAtributo() {
     var botao = document.getElementById("meuBotao");
     botao.removeAttribute("disabled");
 }
+
+// Eventos de teclados
+// Evento onkeydown - Acontece quando a tecla é pressionada
+document.addEventListener("keydown", function(event) {
+    document.getElementById("keydown").textContent = event.key;
+  });
