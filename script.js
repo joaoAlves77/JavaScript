@@ -257,3 +257,21 @@ newLi.innerText = "Item adicionado";
 
 ul.appendChild(newLi); // Adiciona no final
 ul.prepend(newLi); // Adiciona no começo
+
+//Manipulando atributos
+// getAttribute()
+function mostarAtributo() {
+    var link = document.getElementById("meulink");
+    var href = link.getAttribute("href");
+    alert("O atributo 'href' é: " + href);
+}
+
+// setAttribute()
+function alterarAtributos() {
+    // Selecionando o elemento
+    var imagem = document.getElementById("minhaImagem");
+    
+    // Alterando os atributos
+    imagem.setAttribute("src", "nova-imagem.jpg");
+    imagem.setAttribute("alt", "Imagem Atualizada");
+}
