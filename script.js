@@ -281,4 +281,11 @@ function alterarAtributos() {
 function mudarClasse() {
     var paragrafo = document.getElementById("texto");
     paragrafo.classList.toggle("destaque"); // Troca a classe "destaque"
-  }
+}
+
+// Remover Atributos
+// Se você quiser remover um atributo de um elemento, pode usar o método removeAttribute().
+function removerAtributo() {
+    var botao = document.getElementById("meuBotao");
+    botao.removeAttribute("disabled");
+}
