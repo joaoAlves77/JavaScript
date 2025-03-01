@@ -300,3 +300,8 @@ document.addEventListener("keydown", function(event) {
 document.addEventListener("keypress", function(event) {
     document.getElementById("keypress").textContent = event.key;
 });
+
+// Evento onkeyup - Acontece quando a tecla é solta
+document.addEventListener("keyup", function(event) {
+    document.getElementById("keyup").textContent = event.key;
+});
