@@ -275,3 +275,10 @@ function alterarAtributos() {
     imagem.setAttribute("src", "nova-imagem.jpg");
     imagem.setAttribute("alt", "Imagem Atualizada");
 }
+
+// Alterar Atributos de Classe (Class)
+// Você pode manipular as classes de um elemento usando os métodos classList.add(), classList.remove() ou classList.toggle().
+function mudarClasse() {
+    var paragrafo = document.getElementById("texto");
+    paragrafo.classList.toggle("destaque"); // Troca a classe "destaque"
+  }
