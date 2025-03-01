@@ -294,4 +294,9 @@ function removerAtributo() {
 // Evento onkeydown - Acontece quando a tecla é pressionada
 document.addEventListener("keydown", function(event) {
     document.getElementById("keydown").textContent = event.key;
-  });
+});
+
+// Evento onkeypress - Acontece enquanto a tecla está sendo pressionada
+document.addEventListener("keypress", function(event) {
+    document.getElementById("keypress").textContent = event.key;
+});
