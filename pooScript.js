@@ -79,4 +79,4 @@ function createPerson(name, age) {
 let p7 = createPerson('João', 20);
 console.log(`${p7.name} tem ${p7.age} anos`);
 
-//
+// Introdução a Programação Funcional
