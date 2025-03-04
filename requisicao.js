@@ -13,3 +13,9 @@ let nomeCompleto = nome + sobrenome;
 // //     print('Requisição bem sucedida')
 // // else:
 //     print('Requisição falhou')
+
+
+// O que é uma API?
+// Requisição: Um cliente (como um navegador ou aplicativo) faz uma requisição HTTP a um servidor. A requisição pode ser de diferentes tipos, como GET, POST, PUT, DELETE, etc.
+// Processamento: O servidor recebe a requisição e a processa. Isso pode envolver a consulta a um banco de dados, a execução de alguma lógica de negócios, etc.
+// Resposta: Após o processamento, o servidor envia uma resposta de volta ao cliente. A resposta geralmente está no formato JSON ou XML e contém os dados solicitados ou uma mensagem de status.
