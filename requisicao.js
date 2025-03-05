@@ -49,3 +49,24 @@ function clicou() {
             alert(`Titulo do primeiro post: ${json[0].title}`);
         })
 }
+
+// Entendendo Promise
+function buscarDados() {
+    return new Promise(function(resolve, reject) {
+        setTimeout(function() {
+            if(sucesso) {
+                resolve('Dados encontrados');
+            } else {
+                reject('Erro ao buscar dados');
+            }
+        }, 2000);
+    });
+}
+
+buscarDados()
+    .then(function(result) {
+        console.log(result);
+    })
+    .catch(function(error) {
+        console.log(error);
+    });
