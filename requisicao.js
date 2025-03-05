@@ -38,3 +38,14 @@ let nomeCompleto = nome + sobrenome;
 // app.listen(port, () => {
 //     console.log(`Server running at http://localhost:${port}/`);
 // });
+
+// Fazendo uma requisição na prática
+function clicou() {
+    fetch('https://api.github.com/users/joaosantana')
+        .then((response) => {
+            return response.json();
+        })
+        .then((json) => {
+            alert(`Titulo do primeiro post: ${json[0].title}`);
+        })
+}
