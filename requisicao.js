@@ -70,3 +70,52 @@ buscarDados()
     .catch(function(error) {
         console.log(error);
     });
+
+// Métodos de requisições
+// GET - Usado para obter dados de um servidor. É o padrão
+fetch('https://api.exemplo.com/dados') // não precisa passar o method, pois o padrão é GET
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Erro:', error));
+
+// POST - Usado para enviar dados para um servidor.
+fetch('https://api.exemplo.com/dados', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ nome: 'João', idade: 30 }),
+})
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Erro:', error));
+
+    // fetch('https://api.exemplo.com/usuarios', { ... })
+    // fetch: Essa é a função principal usada para fazer requisições HTTP no JavaScript. Ela retorna uma Promise, que será resolvida quando a resposta da requisição estiver disponível.
+    // 'https://api.exemplo.com/usuarios': Este é o URL do servidor para o qual a requisição está sendo feita. Neste caso, estamos enviando dados para o recurso /usuarios de um API fictício.
+    // O segundo argumento de fetch é um objeto de opções, que especifica os detalhes da requisição, como o método HTTP, cabeçalhos, corpo da requisição, etc.
+    // 2. method: 'POST'
+    // method: 'POST': Isso indica o método HTTP que será utilizado para a requisição. O método POST é usado quando queremos enviar dados para o servidor (como a criação de um novo recurso).
+    // 3. headers: { 'Content-Type': 'application/json' }
+    // headers: Aqui você está especificando os cabeçalhos da requisição. Cabeçalhos são informações adicionais que podem ser passadas para o servidor, como tipo de conteúdo ou autenticação.
+    // 'Content-Type': 'application/json': Este cabeçalho diz ao servidor que o corpo da requisição está no formato JSON. Isso é importante porque o servidor precisa saber como interpretar os dados enviados.
+
+// PUT - Usado para atualizar dados em um servidor.
+fetch('https://api.exemplo.com/usuarios/1', {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ nome: 'João', idade: 26 })
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Erro:', error)); 
+// DELETE - Usado para excluir dados de um servidor.
+fetch('https://api.exemplo.com/usuarios/1', {
+    method: 'DELETE'
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Erro:', error));
+  
