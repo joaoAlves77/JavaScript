@@ -118,4 +118,20 @@ fetch('https://api.exemplo.com/usuarios/1', {
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.error('Erro:', error));
-  
+
+// Promises com async/await
+async function inserir() {
+    let response = await fetch('https://api.exemplo.com/usuarios', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ 
+            title: 'Titulo de teste',
+            body: 'Corpo de teste',
+            userId: 2
+         }),
+    });
+    let json = await response.json();
+    console.log(json);
+}
